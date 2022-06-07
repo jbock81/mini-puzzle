@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Ship To Game</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <script type="text/javascript" src="libs/jquery/jquery-3.5.1.js"></script>
+        <script type="text/javascript" src="libs/bootstrap-4.5.2/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="libs/bootstrap-4.5.2/css/bootstrap.min.css"/>
+
+        <script type="text/javascript" src="libs/jquery/jquery-ui.min.js"></script>
+        <link rel="stylesheet" href="libs/jquery/jquery-ui.min.css"/>
+        <link rel="stylesheet" href="libs/jquery/jquery-ui.theme.min.css"/>
+
+        <script type="text/javascript" src="libs/tinymce/tinymce.min.js"></script>
+        <script type="text/javascript" src="libs/tinymce/jquery.tinymce.min.js"></script>
+        <script type="text/javascript" src="libs/FileSaver.js"></script>
+
+        <script type="text/javascript" src="src/module/box.js"></script>
+        
+        <script type="text/javascript" src="src/index.js"></script>
+        <link rel="stylesheet" href="assets/css/style.css"/>
+    </head>
+    <body>
+        <div id="main_div" class="h-100 align-items-center" style="width: 100%;display: block;">
+            <img class="background-image" src="./assets/images/background.jpg"/>
+            <div class="title mt-4">
+            </div>
+            <div class="box-wrapper">
+                <div id="box-container">
+                </div>
+            </div>
+        </div>
+        
+        
+        <div id="solution_div" class="h-100 align-items-center" style="width: 100%;display: none;">
+        </div>
+        
+        <div class="button-wrapper">
+            <div>
+                <button type="button" class="btn btn-warning" id="btn_puzzle">Puzzle</button>
+            </div>
+            <div>
+                <button type="button" class="btn btn-success" id="btn_solution">Solution</button>
+            </div>
+        </div>
+    </body>
+</html>
